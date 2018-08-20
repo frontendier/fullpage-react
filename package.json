@@ -1,6 +1,6 @@
 {
-  "name": "fullpage-react",
-  "version": "3.1.0",
+  "name": "@thecore/fullpage-react",
+  "version": "1.0.0",
   "description": "Stateful fullpage.js inspired scrolling for React",
   "main": "./FullpageReact.js",
   "eslintConfig": "./.eslint.json",
