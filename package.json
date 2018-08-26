@@ -1,15 +1,15 @@
 {
   "name": "@thecore/fullpage-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Stateful fullpage.js inspired scrolling for React",
-  "main": "./FullpageReact.js",
+  "main": "dist/index.js",
   "eslintConfig": "./.eslint.json",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "NODE_ENV=production webpack",
+    "build": "rm -Rf ./dist && babel lib -d dist",
     "jest-test": "jest",
     "test": "npm run build && npm run jest-test",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run build"
   },
   "author": "cmswalker",
   "license": "MIT",
